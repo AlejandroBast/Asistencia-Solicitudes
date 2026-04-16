@@ -1,5 +1,5 @@
 """
-ASGI config for taller_formulario_KaledNicolas project.
+ASGI config for taller_formularios project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'taller_formulario_KaledNicolas.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'taller_formularios.settings')
 
 application = get_asgi_application()
